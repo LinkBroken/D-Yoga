@@ -1,0 +1,29 @@
+{
+  "name": "d-yoga-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/scripts",
+    "watch": "tsc --watch ./src/scripts",
+    "start:dev": "concurrently npm run start / npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/omermohamed0810/d-yoga"
+  },
+  "keywords": [
+    "yoga"
+  ],
+  "author": "Omer Mohamed",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/nunjucks": "^3.2.6",
+    "axios": "^1.7.7",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.6",
+    "nunjucks": "^3.2.4",
+    "webpack": "^5.94.0"
+  }
+}
