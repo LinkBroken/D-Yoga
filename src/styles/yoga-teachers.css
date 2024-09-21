@@ -1,0 +1,42 @@
+.yoga-teachers-section{
+    display: flex;
+    flex-direction: column;
+    background-color:#F8F8F6 ;
+    padding: 10rem;
+    width: 60%;
+    align-items: center;
+    row-gap: 2rem;
+    margin-top: 4rem;
+}
+.yoga-teachers-section>img{
+    width: 4rem;
+}
+
+.yoga-teachers-header>h1{
+    font-size: 2rem;
+    color:#025a5a
+}
+
+.yoga-teachers{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yoga-teacher{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 20%;
+    align-items: center;
+}
+.yoga-teacher>img{
+    width: 14rem;
+}
+.yoga-teacher>h2{
+    color: #025a5a;
+    font-size: 1.6rem;
+}
+.yoga-teacher>p{
+    font-size: 1.2rem;
+    text-align: center;
+}

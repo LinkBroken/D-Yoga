@@ -1,0 +1,35 @@
+
+.modal {
+  border: none;
+  background-color: #dfdfdc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+   height: 40rem;
+   border-radius: 2rem;
+  width: 50rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  position:absolute;
+}
+
+.modal-text{
+  font-size: 2rem;
+  padding: 2rem;
+}
+.modal-exit-btn{
+  width: 2rem;
+  align-self: flex-end;
+  padding: 3rem;
+  
+}
+.modal-exit-btn:hover{
+  cursor: pointer;
+}
+.modal>img:first-of-type{
+  width: 15rem;
+  
+}
+

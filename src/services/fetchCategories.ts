@@ -1,8 +1,7 @@
-import { Categories, Poses } from "./interfaces";
+import { Categories, Category } from "./interfaces";
 
-async function fetchCat(): Promise<Categories<Poses>> {
-    const data: Awaited<Categories<Poses>> = await fetch("https://yoga-api-nzy4.onrender.com/v1/categories").then(Response => Response?.json()).then(data => data)
-
+export async function fetchCat(): Promise<Categories<Category>> {
+    const data: Awaited<Categories<Category>> = await fetch("https://yoga-api-nzy4.onrender.com/v1/categories").then(Response => Response?.json()).then(data => data)
     return data
 }
 

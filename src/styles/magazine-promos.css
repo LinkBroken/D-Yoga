@@ -1,0 +1,50 @@
+
+.magazine-promos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem auto;
+
+
+}
+.magazine-promos-header{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.magazine-promos-header>h1{
+    font-size: 3rem;
+    color:#025a5a;
+    text-align:center
+}
+.magazine-promos-header>p{
+    font-size: 1.5rem;
+    color:#025a5a
+}
+.magazine-promos{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    
+}
+
+.magazine-promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    row-gap: 0;
+}
+.magazine-promo>img{
+    width: 30rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.magazine-promo>img+p{
+    background-color: #009090 ;
+    padding: 4rem;
+    font-size: 1.9rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
