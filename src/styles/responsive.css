@@ -15,7 +15,7 @@
     }
     .nav-bar{
         justify-content:space-around;
-        
+
     }
     .nav-bar>svg{
         display:inline-block;
@@ -25,6 +25,12 @@
     }
     .nav-bar>img{
         display: none;
+    }
+    .header-offers{
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 2rem;
+        
     }
 }
 @media (max-width:55rem){

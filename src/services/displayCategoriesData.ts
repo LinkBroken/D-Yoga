@@ -10,7 +10,7 @@ export async function displayCategories() {
     try {
         const categoriesData: Awaited<Categories<Category>> = await fetchCat();
         const elementNumbers = 3;
-        categoriesData.splice(0, elementNumbers).map((category, index: number) => {
+        categoriesData.splice(0, elementNumbers).map((category: Category, index: number) => {
             const categoryElement = document.createElement('div');
             categoryElement.classList.add('category');
 

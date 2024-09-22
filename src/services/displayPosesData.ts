@@ -1,13 +1,13 @@
 import {  posesSection } from "./elementSelectors.js";
 import { fetchPoses } from "./fetchPoses.js";
-import { Poses } from "./interfaces";
+import { Poses, Pose } from "./interfaces";
 import { handlePoseClick } from "./poseClickHandler.js"
 
 export async function displayPoses() {
     try {
         const data: Awaited<Poses> = await fetchPoses();
-        
-        data.splice(0,15).map((pose) => {
+        const posesCount = 15
+        data.splice(0, posesCount).map((pose: Pose) => {
             const poseElement = document.createElement('div');
             poseElement.classList.add('pose');
 

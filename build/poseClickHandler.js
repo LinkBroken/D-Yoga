@@ -1,4 +1,4 @@
-export function handlePoseClick(element, poseImage) {
+export const handlePoseClick = function (element, poseImage) {
     const modal = document.createElement("dialog");
     modal.classList.add("modal");
     const modalText = document.createElement("p");
@@ -23,4 +23,4 @@ export function handlePoseClick(element, poseImage) {
             document.body.removeChild(modal);
         }
     });
-}
+};

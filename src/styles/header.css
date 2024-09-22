@@ -37,7 +37,6 @@ header{
     display: flex;
     justify-content: center;
     padding: 3rem;
-    /* width: 100%; */
 }
 .header-offers>div{
     background-color: #F8F8F6;

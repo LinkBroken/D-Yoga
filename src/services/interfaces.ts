@@ -1,6 +1,5 @@
 
 export interface Pose {
-  // [key: string]: string | number;
   id: number;
   category_name: string;
   difficulty_level: string;
@@ -13,6 +12,11 @@ export interface Pose {
 }
 
 export type Poses = Pose[];
+
+export type poseClickHandler = (element: HTMLDivElement, poseImage: string) => void;
+
+
+export type burgerBtnClickHandler = (navLinks: Element) => void;
 
 export interface Category {
   id: string;

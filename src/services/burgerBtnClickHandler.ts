@@ -1,5 +1,5 @@
-import { navMenu } from "./elementSelectors.js";
+import { burgerBtnClickHandler } from "./interfaces.js";
 
-export default function handleBurgerBtnClick() {
-  navMenu?.classList.toggle("show")
+export const handleBurgerBtnClick: burgerBtnClickHandler = function (navLinks: Element): void {
+  navLinks?.classList.toggle("show")
 }

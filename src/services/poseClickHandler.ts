@@ -1,4 +1,7 @@
-export function handlePoseClick(element: HTMLDivElement,poseImage:string): void {
+import { poseClickHandler } from "./interfaces";
+
+
+export const handlePoseClick: poseClickHandler = function (element: HTMLDivElement, poseImage: string): void {
 
   const modal = document.createElement("dialog");
   modal.classList.add("modal");

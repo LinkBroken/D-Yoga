@@ -41,6 +41,7 @@
 .magazine-promo>img{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    width: 100%;
     /* padding: 10%; */
 }
 .magazine-promo>img+p{

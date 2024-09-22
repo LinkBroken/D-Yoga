@@ -14,7 +14,8 @@ export function displayPoses() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const data = yield fetchPoses();
-            data.splice(0, 15).map((pose) => {
+            const posesCount = 15;
+            data.splice(0, posesCount).map((pose) => {
                 const poseElement = document.createElement('div');
                 poseElement.classList.add('pose');
                 const nameElement = document.createElement('h2');
