@@ -1,6 +1,6 @@
 
-
 export interface Pose {
+  // [key: string]: string | number;
   id: number;
   category_name: string;
   difficulty_level: string;

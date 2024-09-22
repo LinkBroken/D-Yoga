@@ -2,7 +2,7 @@ export function handlePoseClick(element, poseImage) {
     const modal = document.createElement("dialog");
     modal.classList.add("modal");
     const modalText = document.createElement("p");
-    const modalTextLength = 300;
+    const modalTextLength = 150;
     modalText.textContent = element.innerHTML.slice(0, modalTextLength);
     modalText.classList.add("modal-text");
     modal.appendChild(modalText);

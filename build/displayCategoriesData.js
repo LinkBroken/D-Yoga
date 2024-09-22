@@ -13,7 +13,8 @@ export function displayCategories() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
             const categoriesData = yield fetchCat();
-            categoriesData.splice(0, 3).map((category, index) => {
+            const elementNumbers = 3;
+            categoriesData.splice(0, elementNumbers).map((category, index) => {
                 const categoryElement = document.createElement('div');
                 categoryElement.classList.add('category');
                 const nameElement = document.createElement('h2');

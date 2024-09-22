@@ -9,7 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 export function fetchCat() {
     return __awaiter(this, void 0, void 0, function* () {
-        const data = yield fetch("https://yoga-api-nzy4.onrender.com/v1/categories").then(Response => Response === null || Response === void 0 ? void 0 : Response.json()).then(data => data);
+        const data = yield fetch("https://yoga-api-nzy4.onrender.com/v1/categories", { cache: "force-cache" }).then(Response => Response === null || Response === void 0 ? void 0 : Response.json()).then(data => data);
         return data;
     });
 }

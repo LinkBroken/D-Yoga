@@ -6,7 +6,6 @@ import { handlePoseClick } from "./poseClickHandler.js"
 export async function displayPoses() {
     try {
         const data: Awaited<Poses> = await fetchPoses();
-
         
         data.splice(0,15).map((pose) => {
             const poseElement = document.createElement('div');
