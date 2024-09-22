@@ -7,6 +7,7 @@
     align-items: center;
     row-gap: 2rem;
     margin-top: 4rem;
+    flex-wrap: wrap;
 }
 .yoga-teachers-section>img{
     width: 4rem;
@@ -20,6 +21,7 @@
 .yoga-teachers{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .yoga-teacher{
