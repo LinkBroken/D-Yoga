@@ -4,11 +4,21 @@
     align-items: center;
     
 }
+.nav-bar>svg{
+    display: none;
+    width: 2rem;
+}
+.nav-bar>svg:hover{
+    cursor: pointer;
+}
 .nav-bar>ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     width: 50%;
+}
+.nav-bar>.show{
+    display:flex;
 }
 .nav-bar>a{
     padding: 1rem;
