@@ -15,8 +15,15 @@
         justify-content:space-around;
 
     }
-    .nav-bar>svg{
+    .nav-bar>button{
         display:inline-block;
+        background-color: transparent;
+        border: none;
+    }
+   
+    .nav-bar>button>svg{
+        width: 100%;
+        
     }
     .nav-bar>ul{
         display: none;

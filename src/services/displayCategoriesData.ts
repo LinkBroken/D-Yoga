@@ -1,6 +1,6 @@
 
 import { fetchCat } from "./fetchCategories.js";
-import { Categories, Category } from "./interfaces";
+import { Categories, Category } from "./types.js";
 import { categories } from "./elementSelectors.js";
 
 

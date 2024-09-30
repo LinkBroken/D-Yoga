@@ -1,6 +1,6 @@
 import {  posesSection } from "./elementSelectors.js";
 import { fetchPoses } from "./fetchPoses.js";
-import { Poses, Pose } from "./interfaces";
+import { Poses, Pose } from "./types.js";
 import { handlePoseClick } from "./poseClickHandler.js"
 
 export async function displayPoses() {
@@ -31,7 +31,7 @@ export async function displayPoses() {
             detailsButton.classList.add("more-details-button");
             detailsButton.textContent = "See more ..."
             detailsButton.addEventListener("click", () => {
-                handlePoseClick(benefitsElement,pose.url_svg)
+                !document.querySelector(".modal") && handlePoseClick(benefitsElement, pose.url_svg)
             })
 
 

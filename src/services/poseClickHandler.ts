@@ -1,4 +1,4 @@
-import { poseClickHandler } from "./interfaces";
+import { poseClickHandler } from "./types";
 
 
 export const handlePoseClick: poseClickHandler = function (element: HTMLDivElement, poseImage: string): void {

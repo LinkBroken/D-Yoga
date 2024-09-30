@@ -35,7 +35,7 @@ export function displayPoses() {
                 detailsButton.classList.add("more-details-button");
                 detailsButton.textContent = "See more ...";
                 detailsButton.addEventListener("click", () => {
-                    handlePoseClick(benefitsElement, pose.url_svg);
+                    !document.querySelector(".modal") && handlePoseClick(benefitsElement, pose.url_svg);
                 });
                 poseElement.appendChild(detailsButton);
                 posesSection === null || posesSection === void 0 ? void 0 : posesSection.appendChild(poseElement);
