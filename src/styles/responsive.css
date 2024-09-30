@@ -4,9 +4,7 @@
         flex-direction: column ;
         align-items: center;
     }
-    .modal>p{
-        font-size: 1.6rem;
-    }
+    
     .poses-content{
         flex-wrap:  wrap !important;
     }
