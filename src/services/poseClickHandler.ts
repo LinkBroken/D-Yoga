@@ -22,13 +22,12 @@ export const handlePoseClick: poseClickHandler = function (element: HTMLDivEleme
   exitIcon.src="https://www.svgrepo.com/download/80301/cross.svg";
 
 
-
   modal.appendChild(modalPoseImg)
   modal.appendChild(exitIcon)
   
   
   const rect = element.getBoundingClientRect();
-  modal.style.top = `${rect.top + window.scrollY + 40}px`;
+  modal.style.top = `${rect.top + window.scrollY + 80}px`;
   modal.style.left = `${rect.right + window.scrollX}px`;
 
 

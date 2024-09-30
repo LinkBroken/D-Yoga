@@ -14,7 +14,7 @@ export const handlePoseClick = function (element, poseImage) {
     modal.appendChild(modalPoseImg);
     modal.appendChild(exitIcon);
     const rect = element.getBoundingClientRect();
-    modal.style.top = `${rect.top + window.scrollY + 40}px`;
+    modal.style.top = `${rect.top + window.scrollY + 80}px`;
     modal.style.left = `${rect.right + window.scrollX}px`;
     document.body.appendChild(modal);
     exitIcon.addEventListener("click", (event) => {
