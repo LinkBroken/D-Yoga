@@ -35,14 +35,14 @@
     width: 14rem;
 }
 
-.categories>button{
+.categories>span{
     padding: 1rem;
     color: white;
     width: 14rem;
     border: none;
     border-radius: 1rem;
     background-color: #F1A293;
-
+    text-align: center;
 }
 
 .category-header>h1{
