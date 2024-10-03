@@ -8,7 +8,8 @@ hamburgerBtn?.addEventListener("click", function () {
 });
 
 window.addEventListener("resize", function () {
-  if (window.innerWidth >= 800 && document.querySelector(".show")) {
+  const availabeNavLinks = document.querySelector(".show");
+  if (window.innerWidth >= 800 && availabeNavLinks) {
     navLinks?.classList.remove("show")
 
   }

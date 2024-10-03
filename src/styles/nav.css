@@ -51,3 +51,7 @@
     font-size: 1.3rem;
 
 }
+a[href="#subscription-form"]:hover{
+    background-color: #009090;
+    color: white;
+}

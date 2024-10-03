@@ -6,7 +6,8 @@ hamburgerBtn === null || hamburgerBtn === void 0 ? void 0 : hamburgerBtn.addEven
     navLinks && handleBurgerBtnClick(navLinks);
 });
 window.addEventListener("resize", function () {
-    if (window.innerWidth >= 800 && document.querySelector(".show")) {
+    const availabeNavLinks = document.querySelector(".show");
+    if (window.innerWidth >= 800 && availabeNavLinks) {
         navLinks === null || navLinks === void 0 ? void 0 : navLinks.classList.remove("show");
     }
 });
