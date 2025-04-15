@@ -9,7 +9,9 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 export function fetchPoses() {
     return __awaiter(this, void 0, void 0, function* () {
-        const data = yield fetch("https://yoga-api-nzy4.onrender.com/v1/poses", { cache: "force-cache" }).then(Response => Response.json()).then(data => data);
+        const data = yield fetch("https://yoga-api-nzy4.onrender.com/v1/poses")
+            .then((Response) => Response.json())
+            .then((data) => data);
         return data;
     });
 }

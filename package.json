@@ -18,7 +18,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/auth0": "^3.3.10",
     "@types/nunjucks": "^3.2.6",
+    "auth0": "^4.21.0",
+    "auth0-js": "^9.28.0",
     "axios": "^1.7.7",
     "concurrently": "^9.0.1",
     "nodemon": "^3.1.6",
